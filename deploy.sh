@@ -13,13 +13,14 @@ npm run build
 cd dist
 
 # if you are deploying to a custom domain
-# echo 'example.com' > CNAME
+echo 'fjortoft.tech' > CNAME
 
 echo Deploying..
+git init
 git add -A
 git commit -m 'deploy'
 
 # deploy
-git push -f git@github.com:com:thomasfjortoft/thomasfjortoft.github.io.git master
+git push -f git@github.com:thomasfjortoft/thomasfjortoft.github.io.git master
 
 cd -
