@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="menu">
     <nav>
       <router-link v-for="routes in links" 
       v-bind:key="routes.id"
@@ -17,7 +17,7 @@ export default {
         {
           id: 0,
           text: 'Home',
-          page:'/home'
+          page:'/'
         },
         {
           id: 1,
@@ -36,21 +36,26 @@ export default {
 </script>
 
 <style scoped>
-	nav{
-		margin-left: 2em;
-		width: 100%;
-	}
-	nav a{
-		font-size: x-large;
-		margin: 7px;
-		color: inherit;
-		text-decoration: none; 
-	}
+.menu{
+  width: 10em;
+  margin: auto;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+nav{
+  width: 100%;
+}
+nav a{
+  font-size: x-large;
+  margin: 7px;
+  color: inherit;
+  text-decoration: none; 
+}
 
-	nav a span {
-		display:inline;
-    display:inline-table;
-    display:inline-block;
-    vertical-align:middle;
-	}
+nav a span {
+  display:inline;
+  display:inline-table;
+  display:inline-block;
+  vertical-align:middle;
+}
 </style>

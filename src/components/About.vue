@@ -5,7 +5,7 @@
       <li><b>Age:</b> 27</li>
       <li><b>Location:</b> Bergen</li>
       <li><b>Work:</b> Software Engineer @DNB</li>
-      <li><b>Hobys:</b> Outdoor activities and general exercise</li>
+      <li><b>Hobbies:</b> Outdoor activities and general exercise</li>
       <li><b>Languages:</b> Norwegian and English</li>
     </ul>
   </div>

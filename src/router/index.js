@@ -7,9 +7,10 @@ import Contact from '@/components/Contact'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'home',
       component: Home
     },
