@@ -54,6 +54,11 @@ export default {
 }
 .contact-list li{
   padding-bottom: 10px;
+  transition: transform .4s;
+}
+.contact-list li:hover{
+  transform: scale(1.02);
+  color: white;
 }
 
 .contact-list a{

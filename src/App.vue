@@ -29,7 +29,7 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color:whitesmoke;
+  color:#D0D3D4;
 }
 .container{
   width: 100%;

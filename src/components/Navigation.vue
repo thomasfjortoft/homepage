@@ -51,6 +51,9 @@ nav a{
   color: inherit;
   text-decoration: none; 
 }
+nav a:hover{
+  color: white;
+}
 
 nav a span {
   display:inline;
